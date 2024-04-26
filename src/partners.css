@@ -1,0 +1,17 @@
+
+.rectangle {
+  background-color: #243BFE;
+  border-radius: 15px;
+  width: 287px;
+  height: 132px;
+  color: #FFFFFF;
+}
+
+.rectangle-bottom {
+  background-color: #243BFE;
+  border-radius: 15px;
+  width: 287px;
+  height: 132px;
+  color: #FFFFFF;
+  margin-top: 43px;
+}

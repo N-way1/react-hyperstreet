@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  font-family: 'Poppins';
+}
+
+.col-left .last-price {
+  margin-top: 30px;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.col-left .last-price .row {
+  margin: 7px 0;
+  align-items: center;
+}
+
+.col-left .last-price .row h5 {
+  width: 50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #213A51;
+
+}
+
+.col-left .last-price .row p {
+  width: 50%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #CACACA;
+}
+
+.col-left .last-price .total {
+  border-top: 2px solid #E0E0E0;
+  padding-top: 23px;
+}
+
+.col-left .last-price .total p {
+  width: 50%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #213A51;
+}
+
+.col-right {
+  margin-left: 50px;
+  width: 30%;
+  background-color: #EFEFEF;
+  border-style: none;
+  border-radius: 19px;
+}
+
+.col-right .card {
+  padding: 20px;
+}
+
+.col-right .card h3 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #213A51;
+}
+
+.col-right .card h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9376px;
+  line-height: 24px;
+  color: #A3A3A3;
+  margin-top: 30px;
+}
+
+.col-right .card p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.6094px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 9px;
+}
+
+.col-right .card .form-check {
+  margin-top: 9px;
+}
+
+.col-right .card .form-check label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.6094px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 9px;
+}
+
+.col-right .card .form-select {
+  width: 70px;
+  height: 28px;
+  background-color: #EFEFEF;
+  border-style: none;
+}
+
+.custom-button {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #357ae8;
+}

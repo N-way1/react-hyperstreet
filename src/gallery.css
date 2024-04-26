@@ -1,0 +1,206 @@
+.nav-link {
+    color: #213A51;
+    font-size: 16px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    font-weight: bold;
+    background-color: transparent;
+    color: #213A51;
+}
+
+.nav-pills .nav-link:hover,
+.nav-pills .show>.nav-link {
+    font-weight: bold;
+    background-color: transparent;
+    color: #213A51;
+}
+
+.nav-item h1 {
+    font-size: 24px;
+    /* margin-right: 400px;/?? */
+    color: #213A51;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-pills {
+    cursor: pointer;
+}
+
+.color {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.shoe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.list .number {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.shoe .card {
+    margin-bottom: 50px;
+    border: none;
+    box-shadow: 0px 3.83868px 11.5161px -1.91934px rgba(28, 50, 79, 0.19);
+    border-bottom-left-radius: 14.1153px;
+    border-bottom-right-radius: 14.1153px;
+}
+
+.shoe .card-title {
+    font-size: 14.01px;
+    margin-top: 10px;
+    color: #213A51;
+    font-weight: bold;
+}
+
+.shoe .card-body {
+    font-size: 9.84px;
+    color: #213A51;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+.card-title {
+    color: #213A51;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    background-color: #F66A6A;
+    border-top-left-radius: 14.1153px;
+    border-top-right-radius: 14.1153px;
+}
+
+.new-category {
+    margin-top: 30px;
+}
+
+.card input {
+    background-color: #D9D9D9D9;
+}
+
+
+.card label {
+    color: #3983C7;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.number-line {
+    display: inline-block;
+    border-top: 1px solid #000;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.number {
+    color: #3983C7;
+}
+
+.price {
+    margin-right: 8px;
+    color: #D9D9D9;
+    font-weight: 700px;
+    line-height: 11.76px;
+}
+
+.table tbody td {
+    padding: 15px;
+    color: #3983C7;
+    /* font-size: 8px; */
+    line-height: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.table {
+    border: #D9D9D9;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.active-button {
+    color: #3983C7;
+}
+
+.active-color {
+    width: 40px;
+    height: 40px;
+}
+
+.color:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.icon i {
+    position: absolute;
+    font-size: 16px;
+    width: 30.23px;
+    height: 30.23px;
+    left: 130.7px;
+    top: 130.26px;
+    padding: 8.5px 0 0 5.5px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-placeholder {
+    position: absolute;
+    width: 30.23px;
+    height: 30.23px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-bottom: 69px;
+    margin-left: 123px;
+
+}
+
+.icon-placeholder i {
+    position: absolute;
+    left: 5.699999999999989px;
+    top: 8.259999999999991px;
+    color: #000;
+    font-size: 16px;
+}
+
+.pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
